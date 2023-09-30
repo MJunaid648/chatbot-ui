@@ -223,8 +223,8 @@ body {
 
 @media screen and (max-width: 768px) and (min-width: 481px) {
   #chat-circle {
-    width: 8vw;
-    height: 8vw;
+    width: 10vw;
+    height: 10vw;
   }
   #chat-circle i {
     font-size: 4vw;
@@ -250,6 +250,9 @@ body {
   #chat-input {
     font-size: 2.2vw;
   }
+  #chat-input::placeholder {
+    font-size: 2.2vw;
+  }
   .chat-submit i {
     font-size: 3vw;
   }
@@ -261,14 +264,18 @@ body {
 }
 @media screen and (max-width: 480px) {
   #chat-circle {
-    width: 10vw;
-    height: 10vw;
+    width: 14vw;
+    height: 14vw;
+    bottom: 5vw;
+    right: 5vw;
   }
   #chat-circle i {
     font-size: 5vw;
   }
   .chat-box {
-    width: 50vw;
+    width: 55vw;
+    bottom: 5vw;
+    right: 5vw;
   }
   .chat-box-header {
     padding: 1.3vw 1.6vw;
@@ -280,12 +287,15 @@ body {
     font-size: 3.8vw;
   }
   .chat-logs {
-    height: 55vw;
+    height: 70vw;
   }
   .chat-logs::-webkit-scrollbar {
     width: 1.2vw;
   }
   #chat-input {
+    font-size: 3.2vw;
+  }
+  #chat-input::placeholder {
     font-size: 3.2vw;
   }
   .chat-submit i {
