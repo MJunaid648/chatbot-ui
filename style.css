@@ -76,7 +76,7 @@ body {
   padding: 0.5vw 1vw;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   background: #5a5eb9;
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
@@ -202,6 +202,8 @@ body {
   margin-bottom: 1vw;
   border-radius: 10px;
   font-size: 1.2vw;
+  word-wrap: break-word;
+  hyphens: auto;
 }
 .chat-msg {
   clear: both;
